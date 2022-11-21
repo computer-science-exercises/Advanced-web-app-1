@@ -13,3 +13,8 @@
   justify-content: end;
   border: solid 1px black;
 }
+
+.container {
+  display:grid;
+  justify-content: start;
+}
