@@ -53,13 +53,18 @@ function App() {
         },
     ];
 
-  return (
-   <div className="App"> 
-    {groceries.map(grocery => (
-      <Card grocery={grocery}/>
-    ))}
-   </div>
-  );
+    return (
+
+        <div className="App">
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={<ShoppingList groceries={groceries}/>}/>
+                    <Route path="details/:id" element={<Details groceries={groceries}/>}/>
+                </Routes>
+            </BrowserRouter>
+
+        </div>
+    );
 }
 
 export default App;
