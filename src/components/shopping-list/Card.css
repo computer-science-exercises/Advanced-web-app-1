@@ -1,0 +1,33 @@
+.card {
+  display: flex;
+  justify-content: center;
+}
+
+.image-border {
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  width: 100%;
+  background: white;
+  box-shadow: 0 2px 8px rgba (0, 0, 0, 0.26);
+  border-radius: 10px;
+  border: solid 1px black;
+  margin: 1rem;
+  font-size: 24px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.no-under-line {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  padding-top: 20%;
+  margin-left: 5%;
+}
